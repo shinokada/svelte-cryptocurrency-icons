@@ -69,7 +69,7 @@ Use the `size` prop to change the size of icons.
 
 ## CSS framworks suport
 
-Use the `class` prop to change size, colors and add additional css.
+Use the `class` prop to change size and add additional css.
 
 Tailwind CSS example:
 
@@ -117,7 +117,7 @@ You can pass other attibutes as well.
 	import { Btc } from 'svelte-cryptocurrency-icons';
 	import { onMount } from 'svelte';
 	const props = {
-		size: '50',
+		size: '50'
 	};
 	onMount(() => {
 		const icon = new Btc({ target: document.body, props });
