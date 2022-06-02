@@ -1,56 +1,479 @@
-<svg
-	width="100"
-	height="100"
-	viewBox="0 0 32 32"
-	xmlns="http://www.w3.org/2000/svg"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	><defs
-		><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c"
-			><stop stop-color="#FFF" stop-opacity=".5" offset="0%" /><stop
-				stop-opacity=".5"
-				offset="100%"
-			/></linearGradient
-		><filter
-			x="-5.8%"
-			y="-4.2%"
-			width="111.7%"
-			height="111.7%"
-			filterUnits="objectBoundingBox"
-			id="a"
-			><feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1" /><feGaussianBlur
-				stdDeviation=".5"
-				in="shadowOffsetOuter1"
-				result="shadowBlurOuter1"
-			/><feComposite
-				in="shadowBlurOuter1"
-				in2="SourceAlpha"
-				operator="out"
-				result="shadowBlurOuter1"
-			/><feColorMatrix
-				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.199473505 0"
-				in="shadowBlurOuter1"
-			/></filter
-		><circle id="b" cx="15" cy="15" r="15" /></defs
-	><g fill="none" fill-rule="evenodd"
-		><g transform="translate(1)" fill-rule="nonzero"
-			><use fill="#000" filter="url(#a)" xlink:href="#b" /><use
-				fill="#FF914D"
-				xlink:href="#b"
-			/><use fill="url(#c)" style="mix-blend-mode:soft-light" xlink:href="#b" /><circle
-				stroke-opacity=".097"
-				stroke="#000"
-				stroke-linejoin="square"
-				cx="15"
-				cy="15"
-				r="14.5"
-			/></g
-		><g fill="#FFF"
-			><path
-				d="M16 26.258c-6.218 0-11.258-5.04-11.258-11.258C4.742 8.782 9.782 3.742 16 3.742c6.218 0 11.258 5.04 11.258 11.258 0 6.218-5.04 11.258-11.258 11.258zm0-.662c5.852 0 10.596-4.744 10.596-10.596S21.852 4.404 16 4.404 5.404 9.148 5.404 15 10.148 25.596 16 25.596z"
-			/><path
-				d="M14.09 23.132c.248-.102 1.218-.85 2.155-1.655a51.685 51.685 0 003.348-3.113c1.026-1.026 1.407-1.467 1.47-1.695.222-.801-2.205-9.606-2.699-9.795-.301-.116-2.993 2.123-5.377 4.467-1.398 1.374-1.785 1.831-1.815 2.13-.02.231.06.81.209 1.496.593 2.722 1.672 6.483 2.218 7.718.229.524.255.547.49.447z"
-				fill-rule="nonzero"
-			/></g
-		></g
-	></svg
->
+<script>
+	import * as Icon from '$lib';
+	const random_hex_color_code = () => {
+		let n = (Math.random() * 0xfffff * 1000000).toString(16);
+		return '#' + n.slice(0, 6);
+	};
+</script>
+
+<Icon.$Pac size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.A0Xbtc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.A2Give size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Aave size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Abt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Act size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Actn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ada size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Add size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Adx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ae size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Aeon size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Aeur size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Agi size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Agrs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Aion size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Algo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Amb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Amp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ampl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ankr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ant size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Apex size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Appc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ardr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Arg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ark size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Arn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Arnx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ary size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ast size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Atm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Atom size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Audr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Auto size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Aywa size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bab size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bal size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Band size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bat size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bay size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bcbc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bcc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bcd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bch size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bcio size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bcn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bco size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bcpt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bdl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Beam size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bela size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bix size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Blcn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Blk size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Block size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Blz size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bnb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bnt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bnty size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Booty size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bos size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bpt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bq size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Brd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bsd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bsv size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btcd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btch size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btcp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btcz size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btdx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bts size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Btx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Burst size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Bze size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Call size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cdn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cdt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cenz size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Chain size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Chat size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Chips size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Chsb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cix size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Clam size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cloak size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cmm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cmt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cnd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cnx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cny size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cob size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Colx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Comp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Coqui size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cred size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Crpt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Crv size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Crw size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ctr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ctxc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Cvc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.D size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dai size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dash size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dat size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Data size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dbc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dcn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dcr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Deez size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dent size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dew size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dgb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dgd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dlt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dnt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dock size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Doge size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dot size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Drgn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Drop size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dta size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dth size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Dtr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ebst size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eca size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Edg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Edo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Edoge size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ela size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Elec size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Elf size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Elix size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ella size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Emb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Emc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Emc2 size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eng size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Enj size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Entrp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eon size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eop size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eos size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eqli size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Equa size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Etc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eth size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ethos size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Etn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Etp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Eur size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Evx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Exmo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Exp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fair size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fct size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fil size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fjc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fldc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Flo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Flux size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fsn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ftc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fuel size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Fun size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Game size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gas size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gbp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gbx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gbyte size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Generic size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gin size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Glxt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gmr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gno size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gnt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gold size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Grc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Grin size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Grs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Grt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gsc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gto size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gup size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gusd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gvt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gxs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Gzr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hight size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hns size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hodl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hot size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hpb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hsr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ht size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Html size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Huc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Husd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Hush size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Icn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Icp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Icx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ignis size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ilk size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ink size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ins size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ion size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Iop size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Iost size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Iotx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Iq size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Itc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Jnt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Jpy size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Kcs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Kin size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Klown size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Kmd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Knc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Krb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ksm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lbc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lend size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Leo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Link size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lkk size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Loom size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lpt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lrc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lsk size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ltc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Lun size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Maid size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mana size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Matic size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Max size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mcap size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mco size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mda size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mds size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Med size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Meetone size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mft size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Miota size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mith size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mkr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mln size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mnx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mnz size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Moac size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mod size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mona size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Msr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mth size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mtl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Music size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Mzc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nano size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nas size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nav size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ncash size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ndz size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nebl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Neo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Neos size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Neu size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nexo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ngc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nio size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nkn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nlc2 size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nlg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nmc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nmr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Npxs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ntbc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nuls size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nxs size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Nxt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Oax size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ok size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Omg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Omni size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.One size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ong size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ont size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Oot size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ost size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ox size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Oxt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Part size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pasc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pasl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pax size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Paxg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pay size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Payx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pink size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pirl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pivx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Plr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Poa size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Poe size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Polis size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Poly size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pot size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Powr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ppc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ppp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ppt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pre size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Prl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pungo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Pura size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Qash size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Qiwi size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Qlc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Qrl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Qsp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Qtum size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.R size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rads size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rap size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rcn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rdd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rdn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ren size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rep size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Repv2 size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Req size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rhoc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ric size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rise size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rlc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rpx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rub size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Rvn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ryo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Safe size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Safemoon size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sai size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Salt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.San size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sand size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sbd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sberbank size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Shift size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sib size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sin size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Skl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sky size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Slr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sls size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Smart size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sngls size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Snm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Snt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Snx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Soc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sol size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Spacehbit size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Spank size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sphtx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Srn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Stak size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Start size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Steem size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Storj size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Storm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Stox size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Stq size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Strat size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Stx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sub size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sumo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sushi size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Sys size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Taas size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tau size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tbx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tel size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ten size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tern size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tgch size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Theta size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tix size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tkn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tks size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tnb size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tnc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tnt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tomo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tpay size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Trig size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Trtl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Trx size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tusd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Tzc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Ubq size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Uma size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Uni size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Unity size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Usd size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Usdc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Usdt size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Utk size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Veri size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vet size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Via size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vib size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vibe size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vivo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vrc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vrsc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vtc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Vtho size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wabi size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wan size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Waves size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wax size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wbtc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wgr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wicc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wings size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wpr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Wtc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.X size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xas size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xbc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xbp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xby size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xcp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xdn size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xem size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xin size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xlm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xmcc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xmg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xmo size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xmr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xmy size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xpa size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xpm size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xpr size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xrp size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xsg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xtz size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xuc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xvc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xvg size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Xzc size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Yfi size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Yoyow size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zcl size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zec size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zel size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zen size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zest size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zil size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zilla size="40" color={random_hex_color_code()} variation="icon" />
+<Icon.Zrx size="40" color={random_hex_color_code()} variation="icon" />

@@ -10,6 +10,10 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto2.webp" />
 </p>
 
+## Original source
+
+[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
+
 ## Icon name list
 
 [Icon list](https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md)
@@ -63,16 +67,6 @@ Use the `size` prop to change the size of icons.
 <Btc size="50" />
 ```
 
-## CSS HEX Colors
-
-Use the `color` prop to change colors with HEX color code.
-
-```html
-<Btc size="50" color="#ff0000" />
-<Btc size="50" color="#3a7cff" />
-<Btc size="50" color="#3fe537" />
-```
-
 ## CSS framworks suport
 
 Use the `class` prop to change size, colors and add additional css.
@@ -80,23 +74,13 @@ Use the `class` prop to change size, colors and add additional css.
 Tailwind CSS example:
 
 ```html
-<Btc class="h-24 w-24 text-blue-700 mr-4" />
+<Btc class="h-24 w-24 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
 <Btc class="position-absolute top-0 px-1" />
-```
-
-## Dark mode
-
-If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
-
-Let's use `dark` for the dark mode class as an example.
-
-```html
-<Btc class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
@@ -134,7 +118,6 @@ You can pass other attibutes as well.
 	import { onMount } from 'svelte';
 	const props = {
 		size: '50',
-		color: '#ff0000'
 	};
 	onMount(() => {
 		const icon = new Btc({ target: document.body, props });
