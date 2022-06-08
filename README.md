@@ -5,9 +5,31 @@
 
 470+ SVG crypto currency icon components for Svelte. Icons support major CSS frameworks using the `class` props.
 
+## Icons
+
+### Default (color)
+
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto1.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto2.webp" />
+</p>
+
+### Variation=Icon
+
+<p align="center">
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto3.png" />
+</p>
+
+### Variation black
+
+<p align="center">
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto4.png" />
+</p>
+
+### Variation white
+
+<p align="center">
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto5.png" />
 </p>
 
 ## Original source
