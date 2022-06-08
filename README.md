@@ -7,26 +7,26 @@
 
 ## Icons
 
-### Default (color)
+### Default (variation color)
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto1.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto2.webp" />
 </p>
 
-### Variation=Icon
+### Variation icon
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto3.png" />
 </p>
 
-### Variation black
+### Variation white
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto4.png" />
 </p>
 
-### Variation white
+### Variation black
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto5.png" />
