@@ -1,7 +1,15 @@
-# Svelte-Cryptocurrency-Icons
+<h1 align="center">Svelte-Cryptocurrency-Icons</h1>
 
-[![npm version](https://badgen.net/npm/v/svelte-cryptocurrency-icons)](https://www.npmjs.com/package/svelte-cryptocurrency-icons)
-[![license](https://badgen.net/npm/license/svelte-cryptocurrency-icons)](https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/LICENSE)
+<p align="center">
+<a href="https://shinokada.github.io/svelte-cryptocurrency-icons/">Svelte-Cryptocurrency-Icons</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-cryptocurrency-icons" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-cryptocurrency-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-cryptocurrency-icons.svg" alt="npm"></a>
+</p>
 
 470+ SVG crypto currency icon components for Svelte. Icons support major CSS frameworks using the `class` props.
 
