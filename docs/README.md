@@ -13,46 +13,39 @@
 
 470+ SVG crypto currency icon components for Svelte. Icons support major CSS frameworks using the `class` props.
 
-## Icons
-
-### Default (variation color)
+## Default (variation color)
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto1.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto2.webp" />
 </p>
 
-### Variation icon
+## Variation icon
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto3.png" />
 </p>
 
-### Variation white
+## Variation white
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto4.png" />
 </p>
 
-### Variation black
+## Variation black
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto5.png" />
 </p>
-
-## Original source
-
-[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
-
-## Icon name list
-
-[Icon list](https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md)
 
 ## Installation
 
 ```sh
 npm i -D svelte-cryptocurrency-icons
 ```
+## Icon name list
+
+[Icon list](https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md)
 
 ## Usages
 
@@ -179,6 +172,11 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 <Icon.Eth size="50" class="text-pink-700" />
 <Icon.Usdt size="50" class="text-blue-500" />
 ```
+
+## Original source
+
+[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
+
 
 ## Other icons
 
