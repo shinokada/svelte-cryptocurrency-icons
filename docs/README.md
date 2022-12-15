@@ -7,7 +7,7 @@
 <p align="center">
 <a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-cryptocurrency-icons" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
-<a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-cryptocurrency-icons" alt="License"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-cryptocurrency-icons" alt="License"></a>
 <a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-cryptocurrency-icons.svg" alt="npm"></a>
 </p>
 
@@ -54,7 +54,7 @@ In a svelte file:
 
 ```html
 <script>
-	import { Btc, Eth, Usdt, Usdc, Bnb } from 'svelte-cryptocurrency-icons';
+  import { Btc, Eth, Usdt, Usdc, Bnb } from 'svelte-cryptocurrency-icons';
 </script>
 
 <Btc />
@@ -128,7 +128,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { Btc } from 'svelte-cryptocurrency-icons';
+  import { Btc } from 'svelte-cryptocurrency-icons';
 </script>
 
 <svelte:component this="{Btc}" />
@@ -138,14 +138,14 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { Btc } from 'svelte-cryptocurrency-icons';
-	import { onMount } from 'svelte';
-	const props = {
-		size: '50'
-	};
-	onMount(() => {
-		const icon = new Btc({ target: document.body, props });
-	});
+  import { Btc } from 'svelte-cryptocurrency-icons';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50'
+  };
+  onMount(() => {
+    const icon = new Btc({ target: document.body, props });
+  });
 </script>
 ```
 
@@ -155,7 +155,7 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-cryptocurrency-icons';
+  import * as Icon from 'svelte-cryptocurrency-icons';
 </script>
 
 <Icon.Btc />
