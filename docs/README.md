@@ -43,6 +43,7 @@
 ```sh
 npm i -D svelte-cryptocurrency-icons
 ```
+
 ## Icon name list
 
 [Icon list](https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md)
@@ -176,7 +177,6 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 ## Original source
 
 [spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
-
 
 ## Other icons
 
