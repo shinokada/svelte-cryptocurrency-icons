@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.7...v0.1.8) (2022-12-16)
+
+
+### Bug Fixes
+
+* move files from docs to root since npmjs does not show README ([4920813](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/4920813a413ebbac56222b9cd2481e1d4ae0d23a))
+
 ### [0.1.7](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.6...v0.1.7) (2022-12-15)
 
 ### Bug Fixes
