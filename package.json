@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-cryptocurrency-icons/issues",
-  "homepage": "https://github.com/shinokada/svelte-cryptocurrency-icons",
+  "homepage": "https://shinokada.github.io/svelte-cryptocurrency-icons",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
