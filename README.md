@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Cryptocurrency-Icons</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-cryptocurrency-icons/">Svelte-Cryptocurrency-Icons</a>
+<a href="https://svelte-cryptocurrency-icons.codewithshin.com/">Svelte-Cryptocurrency-Icons</a>
 </p>
 
 <p align="center">
