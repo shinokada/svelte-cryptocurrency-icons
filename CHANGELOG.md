@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.9...v0.1.10) (2023-01-30)
+
+
+### Features
+
+* add pwa ([fc9d0cb](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/fc9d0cb49ba52d4ebe19de0bf0a56bb64deb5e8e))
+
+
+### Bug Fixes
+
+* icon list link and verion update ([317ea48](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/317ea4873cad3a80510c7409651a9600abfba8a5))
+
 ### [0.1.9](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.8...v0.1.9) (2022-12-25)
 
 ### Bug Fixes

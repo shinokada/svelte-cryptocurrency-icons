@@ -1,6 +1,6 @@
 {
   "name": "svelte-cryptocurrency-icons",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Crypto currency SVG icon components for Svelte",
   "author": {
     "name": "Shinichi Okada",
