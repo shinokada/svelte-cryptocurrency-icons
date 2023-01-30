@@ -47,7 +47,7 @@ npm i -D svelte-cryptocurrency-icons
 
 ## Icon name list
 
-[Icon list](https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md)
+[Icon list](/icon-list.md)
 
 ## Usages
 
