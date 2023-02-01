@@ -6,7 +6,6 @@
 <img width="650" src="/static/images/crypto-color-optimized.png" />
 </p>
 
-
 ## Icon
 
 <p align="center">
