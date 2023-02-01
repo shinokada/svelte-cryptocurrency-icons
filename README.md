@@ -14,30 +14,16 @@
 
 470+ SVG crypto currency icon components for Svelte. Icons support major CSS frameworks using the `class` props.
 
-## Default (variation color)
-
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto2.webp" />
+<img width="650" src="/static/images/crypto-color-optimized-650-1050.png" />
 </p>
 
-## Variation icon
+## Variations 
 
-<p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto3.png" />
-</p>
-
-## Variation white
-
-<p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto4.png" />
-</p>
-
-## Variation black
-
-<p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-cryptocurrency-icons/main/static/images/crypto5.png" />
-</p>
+- Color (default)
+- Black
+- Icon
+- White
 
 ## Installation
 
@@ -45,9 +31,13 @@
 npm i -D svelte-cryptocurrency-icons
 ```
 
-## Icon name list
+## Icon names
 
 [Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -183,7 +173,7 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## Experience lightning-fast browsing and offline access with Our PWA
+## PWA: Fast & Offline
 
 This website can be downloaded and installed on your device for offline access as a Progressive Web App.
 
