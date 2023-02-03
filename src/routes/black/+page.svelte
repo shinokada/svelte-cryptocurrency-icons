@@ -8,6 +8,7 @@
 
 <Icon.$Pac size="40" color={random_hex_color_code()} variation="black" />
 <Icon.A0Xbtc size="40" color={random_hex_color_code()} variation="black" />
+<Icon.A1Inch size="40" color={random_hex_color_code()} variation="black" />
 <Icon.A2Give size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Aave size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Abt size="40" color={random_hex_color_code()} variation="black" />
@@ -28,6 +29,7 @@
 <Icon.Ampl size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Ankr size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Ant size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Ape size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Apex size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Appc size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Ardr size="40" color={random_hex_color_code()} variation="black" />
@@ -37,10 +39,13 @@
 <Icon.Arnx size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Ary size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Ast size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Atlas size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Atm size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Atom size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Audr size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Aury size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Auto size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Avax size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Aywa size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Bab size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Bal size="40" color={random_hex_color_code()} variation="black" />
@@ -95,6 +100,7 @@
 <Icon.Chat size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Chips size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Chsb size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Chz size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Cix size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Clam size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Cloak size="40" color={random_hex_color_code()} variation="black" />
@@ -170,6 +176,7 @@
 <Icon.Exp size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Fair size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Fct size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Fida size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Fil size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Fjc size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Fldc size="40" color={random_hex_color_code()} variation="black" />
@@ -188,6 +195,7 @@
 <Icon.Gin size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Glxt size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Gmr size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Gmt size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Gno size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Gnt size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Gold size="40" color={random_hex_color_code()} variation="black" />
@@ -304,6 +312,7 @@
 <Icon.Ost size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Ox size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Oxt size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Oxy size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Part size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Pasc size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Pasl size="40" color={random_hex_color_code()} variation="black" />
@@ -331,12 +340,14 @@
 <Icon.Qash size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Qiwi size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Qlc size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Qnt size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Qrl size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Qsp size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Qtum size="40" color={random_hex_color_code()} variation="black" />
 <Icon.R size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Rads size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Rap size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Ray size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Rcn size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Rdd size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Rdn size="40" color={random_hex_color_code()} variation="black" />
@@ -361,6 +372,7 @@
 <Icon.Sbd size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Sberbank size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Sc size="40" color={random_hex_color_code()} variation="black" />
+<Icon.Ser size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Shift size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Sib size="40" color={random_hex_color_code()} variation="black" />
 <Icon.Sin size="40" color={random_hex_color_code()} variation="black" />

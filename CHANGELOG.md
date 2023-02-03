@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.12](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.11...v0.1.12) (2023-02-01)
 
-
 ### Bug Fixes
 
-* badges target, height, and add links to crossOriginLinks ([3ff4345](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/3ff4345074eff79db92a8656efc60cb6bbc9d1a2))
+- badges target, height, and add links to crossOriginLinks ([3ff4345](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/3ff4345074eff79db92a8656efc60cb6bbc9d1a2))
 
 ### [0.1.11](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.10...v0.1.11) (2023-02-01)
 
