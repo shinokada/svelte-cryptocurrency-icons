@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.12...v0.2.1) (2023-02-22)
+
+### Features
+
+- add microsoft webmaster tools meta tag ([a468583](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/a46858388da784ccf818f8e9e6fe84c838b33a1b))
+
+### Bug Fixes
+
+- update index page with the latest icons ([be189be](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/be189bead1062047b3a0aa1a12b2d3036f194383))
+- update index.html ([cc1e65c](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/cc1e65cc55fa29178f369056806a26a408d98fcf))
+
 ### [0.1.12](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.1.11...v0.1.12) (2023-02-01)
 
 ### Bug Fixes
