@@ -57,6 +57,38 @@ In a svelte file:
 <Bnb />
 ```
 
+## Faster compiling
+
+For faster compilation, you can import the icon directly.
+
+```html
+<script>
+  import Btc from 'svelte-cryptocurrency-icons/Btc.svelte';
+</script>
+
+<Btc />
+```
+
+If you are TypeScript user, **install typescript version 5.0.0 or above.**
+
+As of March 2023, the `typescript@beta` version is now available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
+```
+
 ## Props
 
 | Name                                  | Default   |
