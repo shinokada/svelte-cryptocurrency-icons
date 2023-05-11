@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.3.1...v0.4.1) (2023-05-11)
+
+
+### Bug Fixes
+
+* remove husky and update README ([91a7938](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/91a7938e68d719ee262067a217de04fa318f0060))
+
 ### [0.3.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.2.2...v0.3.1) (2023-03-07)
 
 ### Features
