@@ -151,6 +151,20 @@ You can pass other attibutes as well.
 <Btc tabindex="0" />
 ```
 
+## Events
+
+All icons have the following events:
+
+```
+on:click
+on:mouseenter
+on:mouseleave
+on:mouseover
+on:mouseout
+on:blur
+on:focus
+```
+
 ## Using svelte:component
 
 ```html

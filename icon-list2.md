@@ -1,5 +1,3 @@
-# Icon names
-
 - $Pac.svelte
 - A0Xbtc.svelte
 - A1Inch.svelte
@@ -482,9 +480,5 @@
 - Zest.svelte
 - Zil.svelte
 - Zilla.svelte
-- Zrx.svelte\
-
-## Back to Home
-
-[Back to Home](/)
-
+- Zrx.svelte
+- index.js
