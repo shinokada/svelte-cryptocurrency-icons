@@ -6,17 +6,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.5.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.4.1...v0.5.1) (2023-05-30)
 
-
 ### Features
 
-* add IDE support for component document ([5074c06](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/5074c065054d91042df7c54c6a6c801741857422))
+- add IDE support for component document ([5074c06](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/5074c065054d91042df7c54c6a6c801741857422))
 
 ### [0.4.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.3.1...v0.4.1) (2023-05-11)
 
-
 ### Bug Fixes
 
-* remove husky and update README ([91a7938](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/91a7938e68d719ee262067a217de04fa318f0060))
+- remove husky and update README ([91a7938](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/91a7938e68d719ee262067a217de04fa318f0060))
 
 ### [0.3.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.2.2...v0.3.1) (2023-03-07)
 

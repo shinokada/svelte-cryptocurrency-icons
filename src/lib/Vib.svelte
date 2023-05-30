@@ -1,29 +1,33 @@
 <script lang="ts">
-  export let size = "32";
-  export let variation: "black" | "color" | "icon" | "white" = "color";
+  export let size = '32';
+  export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
   let svgpath: string;
-  let svgblack = '<path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM7 7l10.2 18H22V7h-3.6v12.775L11.2 7z"/>';
-  let svgcolor = '<g fill="none"><circle cx="16" cy="16" fill="#ff1f43" r="16"/><path d="M7 7h4.2l7.2 12.775V7H22v18h-4.8z" fill="#fff"/></g>';
-  let svgicon = '<defs><filter id="a" width="111.7%" height="111.7%" x="-5.8%" y="-4.2%" filterUnits="objectBoundingBox"><feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.199473505 0"/></filter><filter id="d" width="123.3%" height="119.4%" x="-11.7%" y="-6.9%" filterUnits="objectBoundingBox"><feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.204257246 0"/></filter><linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFF" stop-opacity=".5"/><stop offset="100%" stop-opacity=".5"/></linearGradient><circle id="b" cx="16" cy="15" r="15"/><path id="e" d="M7 6h4.2l7.2 12.775V6H22v18h-4.8L7 6"/></defs><g fill="none"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#FF1F43" fill-rule="evenodd" xlink:href="#b"/><use fill="url(#c)" fill-rule="evenodd" style="mix-blend-mode:soft-light" xlink:href="#b"/><circle cx="16" cy="15" r="14.5" stroke="#000" stroke-opacity=".097"/><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="#FFF" fill-rule="evenodd" xlink:href="#e"/></g>';
-  let svgwhite = '<path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM7 7l10.2 18H22V7h-3.6v12.775L11.2 7z" fill="#fff"/>';
+  let svgblack =
+    '<path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM7 7l10.2 18H22V7h-3.6v12.775L11.2 7z"/>';
+  let svgcolor =
+    '<g fill="none"><circle cx="16" cy="16" fill="#ff1f43" r="16"/><path d="M7 7h4.2l7.2 12.775V7H22v18h-4.8z" fill="#fff"/></g>';
+  let svgicon =
+    '<defs><filter id="a" width="111.7%" height="111.7%" x="-5.8%" y="-4.2%" filterUnits="objectBoundingBox"><feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.199473505 0"/></filter><filter id="d" width="123.3%" height="119.4%" x="-11.7%" y="-6.9%" filterUnits="objectBoundingBox"><feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.204257246 0"/></filter><linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFF" stop-opacity=".5"/><stop offset="100%" stop-opacity=".5"/></linearGradient><circle id="b" cx="16" cy="15" r="15"/><path id="e" d="M7 6h4.2l7.2 12.775V6H22v18h-4.8L7 6"/></defs><g fill="none"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#FF1F43" fill-rule="evenodd" xlink:href="#b"/><use fill="url(#c)" fill-rule="evenodd" style="mix-blend-mode:soft-light" xlink:href="#b"/><circle cx="16" cy="15" r="14.5" stroke="#000" stroke-opacity=".097"/><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="#FFF" fill-rule="evenodd" xlink:href="#e"/></g>';
+  let svgwhite =
+    '<path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM7 7l10.2 18H22V7h-3.6v12.775L11.2 7z" fill="#fff"/>';
   switch (variation) {
-    case "black":
+    case 'black':
       svgpath = svgblack;
       break;
-    case "color":
+    case 'color':
       svgpath = svgcolor;
       break;
-    case "icon":
+    case 'icon':
       svgpath = svgicon;
       break;
-    case "white":
+    case 'white':
       svgpath = svgwhite;
       break;
     default:
       svgpath = svgcolor;
   }
-export let ariaLabel="vib";
- </script>
+  export let ariaLabel = 'vib';
+</script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -33,23 +37,29 @@ export let ariaLabel="vib";
   {...$$restProps}
   aria-label={ariaLabel}
   viewBox="0 0 32 32"
-  on:click 
-  on:mouseenter 
-  on:mouseleave 
-  on:mouseover 
-  on:mouseout 
-  on:blur 
-  on:focus 
+  on:click
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
 >
   {@html svgpath}
 </svg>
 
-
 <!--
   @component
   [Go to Document](https://svelte-cryptocurrency-icons.codewithshin.com/)
-
   ## Props
   @prop size = "32";
   @prop variation: "black" | "color" | "icon" | "white" = "color";
+  ## Event
+  - on:click 
+  - on:mouseenter 
+  - on:mouseleave 
+  - on:mouseover 
+  - on:mouseout 
+  - on:blur 
+  - on:focus 
 -->
