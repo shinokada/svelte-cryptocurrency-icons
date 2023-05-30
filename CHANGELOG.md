@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.5.3](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.2...v0.5.3) (2023-05-30)
 
-
 ### Features
 
-* add events to component doc ([0aa5248](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/0aa5248c24f43b5324acd2c18956e1ce42fb0bed))
+- add events to component doc ([0aa5248](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/0aa5248c24f43b5324acd2c18956e1ce42fb0bed))
 
 ### [0.5.2](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.1...v0.5.2) (2023-05-30)
 

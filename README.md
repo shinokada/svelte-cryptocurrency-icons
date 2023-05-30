@@ -159,15 +159,15 @@ You can pass other attibutes as well.
 
 All icons have the following events:
 
-```
-on:click
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-on:blur
-on:focus
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Using svelte:component
 
