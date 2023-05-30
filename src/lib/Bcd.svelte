@@ -43,3 +43,13 @@ export let ariaLabel="bcd";
 >
   {@html svgpath}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-cryptocurrency-icons.codewithshin.com/)
+
+  ## Props
+  @prop size = "32";
+  @prop variation: "black" | "color" | "icon" | "white" = "color";
+-->
