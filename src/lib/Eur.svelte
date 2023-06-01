@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size = '32';
+  export let role = 'img';
   export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
   let svgpath: string;
   let svgblack =
@@ -35,6 +36,7 @@
   height={size}
   class={$$props.class}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   viewBox="0 0 32 32"
   on:click
@@ -55,6 +57,7 @@
   [Go to Document](https://svelte-cryptocurrency-icons.codewithshin.com/)
   ## Props
   @prop size = "32";
+  @prop role = 'img';
   @prop variation: "black" | "color" | "icon" | "white" = "color";
   ## Event
   - on:click
