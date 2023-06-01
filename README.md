@@ -96,6 +96,7 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 | Name                                  | Default   |
 | ------------------------------------- | --------- |
 | size                                  | 24        |
+| role | img |
 | class                                 |           |
 | ariaLabel                             | file name |
 | variation (black, color, icon, white) | color     |
