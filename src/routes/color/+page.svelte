@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
 </svelte:head>
 
-<div class="flex flex-wrap justify-between ">
+<div class="flex flex-wrap justify-between">
   <Icon.$Pac size="40" class="m-0.5" color={random_hex_color_code()} />
   <Icon.A0Xbtc size="40" class="m-0.5" color={random_hex_color_code()} />
   <Icon.A2Give size="40" class="m-0.5" color={random_hex_color_code()} />
