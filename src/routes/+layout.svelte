@@ -36,7 +36,7 @@
     title: "Svelte Cryptcurrency Icons",
     description: "Svelte Cryptcurrency icon set for Svelte",
     image:'https://open-graph-vercel.vercel.app/api/svelte-cryptocurrency-flags',
-    imageAlt: "Svelte Circle Flags"
+    imageAlt: "Svelte Cryptcurrency Icons"
   }} />
   
 <header class="flex-none w-full mx-auto bg-white dark:bg-neutral-700">
@@ -66,7 +66,7 @@
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
     href="https://svelte-cryptocurrency-icons.vercel.app/"
-    name="Svelte Circle Flags"
+    name="Svelte Cryptcurrency Icons"
     classSpan="text-primary-700 dark:text-primary-500"
   />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
@@ -74,6 +74,7 @@
     <FooterLink href="/icons">Icons</FooterLink>
     <FooterLink href="https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/LICENSE">Licensing</FooterLink>
     <FooterLink href="https://github.com/shinokada/svelte-cryptocurrency-icons/">GitHub</FooterLink>
+    <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
   </FooterLinkGroup>
   </div>
 </Footer>
