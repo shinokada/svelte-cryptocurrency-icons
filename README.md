@@ -1,47 +1,38 @@
-<h1 align="center">Svelte-Cryptocurrency-Icons</h1>
+# Svelte-Cryptocurrency-Icons
 
-<p align="center">
-<a href="https://svelte-cryptocurrency-icons.codewithshin.com/">Svelte-Cryptocurrency-Icons</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield" height="25">
-</a>
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25"></a>
 <a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cryptocurrency-icons" alt="npm" height="25"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cryptocurrency-icons" alt="License" height="25"></a>
 <a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cryptocurrency-icons.svg" alt="npm" height="25"></a>
-</p>
+</div>
 
-470+ SVG crypto currency icon components for Svelte. Icons support major CSS frameworks using the `class` props.
+470+ SVG crypto currency icon components for Svelte. 
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img width="650" src="/static/images/crypto-color-optimized-650-1050.png" />
-</p>
 
-## Variations
+## Repo
 
-- Color (default)
-- Black
-- Icon
-- White
+[GitHub Repo](https://github.com/shinokada/svelte-cryptocurrency-icons)
+
+## Original source
+
+[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
+
+## License
+
+[Svelte-Circle-Flags License](https://github.com/shinokada/svelte-cryptocurrency-icons/LICENSE)
+
+[spothq/cryptocurrency-icons License](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md)
+
 
 ## Installation
 
 ```sh
-npm i -D svelte-cryptocurrency-icons
+pnpm i -D svelte-cryptocurrency-icons
 ```
-
-## Icon names
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -72,8 +63,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 ```
 
 If you are a TypeScript user, **install typescript version 5.0.0 or above**.
-
-As of March 2023, the `typescript@beta` version is now available:
 
 ```sh
 pnpm i -D typescript@beta
@@ -123,6 +112,10 @@ Use the `size` prop to change the size of icons.
 <Btc size="50" />
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
+
+<Btc class="shrink-0 h-20 w-20" />
+
 ## CSS framworks suport
 
 Use the `class` prop to change size and add additional css.
@@ -148,12 +141,12 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 <Btc ariaLabel="btc icon" />
 ```
 
-## Passing down other attributes
+# Unfocusable icon
 
-You can pass other attibutes as well.
+If you want to make an icon unfocusable, add tabindex="-1".
 
 ```html
-<Btc tabindex="0" />
+<Btc tabindex="-1" />
 ```
 
 ## Events
@@ -169,6 +162,14 @@ All icons have the following events:
 - on:mouseleave
 - on:mouseover
 - on:mouseout
+
+## Passing down other attributes
+
+You can pass other attibutes as well.
+
+```html
+<Btc tabindex="0" />
+```
 
 ## Using svelte:component
 
@@ -220,16 +221,6 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 <Icon.Usdt size="50" class="text-blue-500" />
 ```
 
-## Original source
-
-[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
-
 ## Other icons
 
-- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-
-## PWA: Fast & Offline
-
-This website can be downloaded and installed on your device for offline access as a Progressive Web App.
-
-To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
+[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)

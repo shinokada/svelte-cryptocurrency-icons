@@ -27,26 +27,12 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [spothq/cryptocurrency-icons License](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md)
 
-## Variations
-
-- Color (default)
-- Black
-- Icon
-- White
 
 ## Installation
 
 ```sh
-npm i -D svelte-cryptocurrency-icons
+pnpm i -D svelte-cryptocurrency-icons
 ```
-
-## Icon names
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -77,8 +63,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 ```
 
 If you are a TypeScript user, **install typescript version 5.0.0 or above**.
-
-As of March 2023, the `typescript@beta` version is now available:
 
 ```sh
 pnpm i -D typescript@beta
@@ -128,6 +112,10 @@ Use the `size` prop to change the size of icons.
 <Btc size="50" />
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
+
+<Btc class="shrink-0 h-20 w-20" />
+
 ## CSS framworks suport
 
 Use the `class` prop to change size and add additional css.
@@ -153,12 +141,12 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 <Btc ariaLabel="btc icon" />
 ```
 
-## Passing down other attributes
+# Unfocusable icon
 
-You can pass other attibutes as well.
+If you want to make an icon unfocusable, add tabindex="-1".
 
 ```html
-<Btc tabindex="0" />
+<Btc tabindex="-1" />
 ```
 
 ## Events
@@ -174,6 +162,14 @@ All icons have the following events:
 - on:mouseleave
 - on:mouseover
 - on:mouseout
+
+## Passing down other attributes
+
+You can pass other attibutes as well.
+
+```html
+<Btc tabindex="0" />
+```
 
 ## Using svelte:component
 
@@ -224,10 +220,6 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 <Icon.Eth size="50" class="text-pink-700" />
 <Icon.Usdt size="50" class="text-blue-500" />
 ```
-
-## Original source
-
-[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
 
 ## Other icons
 
