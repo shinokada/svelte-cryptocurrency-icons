@@ -1,11 +1,11 @@
 # Svelte Cryptocurrency Icons
 
 <div class="flex gap-2 my-8">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cryptocurrency-icons" alt="npm" height="25"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cryptocurrency-icons" alt="License" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cryptocurrency-icons.svg" alt="npm" height="25"></a>
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cryptocurrency-icons" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cryptocurrency-icons" alt="License" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cryptocurrency-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
 </div>
 
 470+ SVG crypto currency icon components for Svelte. 
@@ -114,7 +114,9 @@ Use the `size` prop to change the size of icons.
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
+```html
 <Btc class="shrink-0 h-20 w-20" />
+```
 
 ## CSS framworks suport
 
