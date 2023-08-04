@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.2](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.6.1...v0.6.2) (2023-08-04)
+
+
+### Features
+
+* use two files ([283a492](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/283a492698e5da0720f733760107b70a5cbb5471))
+
 ### [0.6.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.9...v0.6.1) (2023-08-04)
 
 ### [0.5.9](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.8...v0.5.9) (2023-07-20)
