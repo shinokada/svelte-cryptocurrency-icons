@@ -39,8 +39,8 @@
     imageAlt: "Svelte Cryptcurrency Icons"
   }} />
   
-<header class="flex-none w-full mx-auto bg-white dark:bg-neutral-700">
-  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-neutral-700">
+<header class="flex-none w-full mx-auto bg-white dark:bg-neutral-900">
+  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-neutral-900">
     <NavBrand href="/">
       <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"> {title} </span>
     </NavBrand>
@@ -49,7 +49,9 @@
       activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
       >
     <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
-    <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
+    <NavLi href="/black" active={activeUrl === '/black'}>Black</NavLi>
+    <NavLi href="/color" active={activeUrl === '/color'}>Color</NavLi>
+    <NavLi href="/white" active={activeUrl === '/white'}>White</NavLi>
     <NavLi href="https://github.com/shinokada/svelte-cryptocurrency-icons">GitHub</NavLi>
     <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
   </NavUl>
@@ -63,7 +65,7 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-zinc-700">
+<Footer footerType="logo" class="dark:bg-neutral-900">
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
     href="https://svelte-cryptocurrency-icons.vercel.app/"
@@ -72,7 +74,9 @@
   />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
     <FooterLink href="/">Home</FooterLink>
-    <FooterLink href="/icons">Icons</FooterLink>
+    <FooterLink href="/black">Black</FooterLink>
+    <FooterLink href="/color">Color</FooterLink>
+    <FooterLink href="/white">White</FooterLink>
     <FooterLink href="https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/LICENSE">Licensing</FooterLink>
     <FooterLink href="https://github.com/shinokada/svelte-cryptocurrency-icons/">GitHub</FooterLink>
     <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
