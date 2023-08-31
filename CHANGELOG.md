@@ -2,30 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.6.2](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.6.1...v0.6.2) (2023-08-04)
+### [0.7.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.6.2...v0.7.1) (2023-08-31)
 
+### [0.6.2](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.6.1...v0.6.2) (2023-08-04)
 
 ### Features
 
-* use two files ([283a492](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/283a492698e5da0720f733760107b70a5cbb5471))
+- use two files ([283a492](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/283a492698e5da0720f733760107b70a5cbb5471))
 
 ### [0.6.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.9...v0.6.1) (2023-08-04)
 
 ### [0.5.9](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.8...v0.5.9) (2023-07-20)
 
-
 ### Features
 
-* add size range ([ee31906](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/ee31906fd0f54d76e9c024f7e72c04cda51aa814))
-
+- add size range ([ee31906](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/ee31906fd0f54d76e9c024f7e72c04cda51aa814))
 
 ### Bug Fixes
 
-* add backticks ([b8a2904](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/b8a2904b43ca62107b2922534f93d8ea567bbd9f))
-* footer links ([28e41c5](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/28e41c5f1a025ca82427c4f354b6686ec2d655dc))
-* homepage update ([5f97896](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/5f978962bd682911758354f47bc6d1ced6ae12d7))
-* image sizes ([0304383](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/0304383bcd09dfd4a3ddae0b5b276e1f398a61da))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([dae3797](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/dae37974c289a81f5aacd0302ef5a3b619f48c39))
+- add backticks ([b8a2904](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/b8a2904b43ca62107b2922534f93d8ea567bbd9f))
+- footer links ([28e41c5](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/28e41c5f1a025ca82427c4f354b6686ec2d655dc))
+- homepage update ([5f97896](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/5f978962bd682911758354f47bc6d1ced6ae12d7))
+- image sizes ([0304383](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/0304383bcd09dfd4a3ddae0b5b276e1f398a61da))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([dae3797](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/dae37974c289a81f5aacd0302ef5a3b619f48c39))
 
 ### [0.5.8](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.5.7...v0.5.8) (2023-06-15)
 
