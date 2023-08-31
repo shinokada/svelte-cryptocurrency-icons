@@ -8,7 +8,7 @@
 <a href="https://www.npmjs.com/package/svelte-cryptocurrency-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cryptocurrency-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
 </div>
 
-470+ SVG crypto currency icon components for Svelte. 
+470+ SVG crypto currency icon components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
@@ -26,7 +26,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [spothq/cryptocurrency-icons License](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md)
 
-
 ## Installation
 
 ```sh
@@ -39,79 +38,115 @@ In a svelte file:
 
 ```html
 <script>
-  import { Icon } from 'svelte-cryptocurrency-icons';
+  import { Btc, Eth, Usdt, Usdc, Bnb } from 'svelte-cryptocurrency-icons';
 </script>
 
-<Icon name="btc" />
+<Btc />
+<Eth />
+<Usdt />
+<Usdc />
+<Bnb />
+```
+
+## Faster compiling
+
+If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
+
+```html
+<script>
+  import Btc from 'svelte-cryptocurrency-icons/Btc.svelte';
+</script>
+
+<Btc />
+```
+
+If you are a TypeScript user, **install typescript version 5.0.0 or above**.
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
 ```
 
 ## Props
 
-- @prop name;
-- @prop width = "32";
-- @prop height = "32";
-- @prop role = 'img';
-- @prop ariaLabel='icon name'
+| Name                                  | Default   |
+| ------------------------------------- | --------- |
+| size                                  | 24        |
+| role                                  | img       |
+| class                                 |           |
+| ariaLabel                             | file name |
+| variation (black, color, icon, white) | color     |
 
 ## IDE support
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, features, props, events, and an example.
 
-## Size
+## Variation
 
-Use the `width` and `height` props to change the size of icons.
+The default variation value is outline. Use the `variation` prop to change it to solid.
 
 ```html
-<Icon name="btc" width="100" height="100" />
+<Btc variation="black" />
+```
+
+## Size
+
+Use the `size` prop to change the size of icons.
+
+```html
+<Btc size="30" />
+<Btc size="40" />
+<Btc size="50" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Icon name="btc" class="shrink-0 h-20 w-20" />
+<Btc class="shrink-0 h-20 w-20" />
 ```
 
-## CSS frameworks suport
+## CSS framworks suport
 
-You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
+Use the `class` prop to change size and add additional css.
 
 Tailwind CSS example:
 
 ```html
-<Icon name="btc" class="text-red-700 inline m-1" />
+<Btc class="h-24 w-24 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Icon name="btc" class="position-absolute top-0 px-1" />
-```
-
-## Dark mode
-
-If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
-
-Let's use `dark` for the dark mode class as an example.
-
-```html
-<Icon name="btc"  class="text-blue-700 dark:text-red-500" />
+<Btc class="position-absolute top-0 px-1" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `btc` has `aria-label="btc`"`.
+All icons have aria-label. For example `Btc` has `aria-label="btc"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Icon name="btc" ariaLabel="btc coin"/>
+<Btc ariaLabel="btc icon" />
 ```
 
-## Unfocusable icon
+# Unfocusable icon
 
-If you want to make an icon unfocusable, add `tabindex="-1"`.
+If you want to make an icon unfocusable, add tabindex="-1".
 
 ```html
-<Icon name="btc" tabindex="-1" />
+<Btc tabindex="-1" />
 ```
 
 ## Events
@@ -133,58 +168,57 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Icon name="btc" tabindex="0" />
+<Btc tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<svelte:component this="{Icon}" name="btc" />
+<script>
+  import { Btc } from 'svelte-cryptocurrency-icons';
+</script>
+
+<svelte:component this="{Btc}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Icon } from 'svelte-cryptocurrency-icons';
+  import { Btc } from 'svelte-cryptocurrency-icons';
   import { onMount } from 'svelte';
   const props = {
-    name: 'btc',
-    size: '50',
-    color: '#ff0000'
+    size: '50'
   };
   onMount(() => {
-    const icon = new Icon({ target: document.body, props });
+    const icon = new Btc({ target: document.body, props });
   });
 </script>
 ```
 
-
 ## Import all
 
-Use `import { Icon, icons } from 'svelte-cryptocurrency-icons';`.
+Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 
 ```html
 <script>
-  import { Icon, icons } from 'svelte-cryptocurrency-icons';
-  function filterIconsByKeyword(icons, keyword) {
-    const filteredIcons = {};
-    for (const key in icons) {
-      if (key.includes(keyword)) {
-        filteredIcons[key] = icons[key];
-      }
-    }
-    return filteredIcons;
-  }
-  const outlineIcons = filterIconsByKeyword(icons, '-black');
+  import * as Icon from 'svelte-cryptocurrency-icons';
 </script>
 
-{#each Object.keys(outlineIcons) as name}
-<div class="flex gap-4 items-center text-lg">
-  <Icon name={name} class="shrink-0"/>
-  {name}
-</div>
-{/each}
+<Icon.Btc />
+<Icon.Eth />
+
+<h1>Size</h1>
+<Icon.Usdt size="50" />
+<Icon.Usdc size="50" />
+
+<h1>CSS HEX color</h1>
+<Icon.Bnb size="50" color="#ff0000" />
+<Icon.Btc size="50" color="#3a7cff" />
+
+<h1>Tailwind CSS</h1>
+<Icon.Eth size="50" class="text-pink-700" />
+<Icon.Usdt size="50" class="text-blue-500" />
 ```
 
 ## Other icons
