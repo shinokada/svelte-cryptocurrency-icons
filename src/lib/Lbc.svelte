@@ -1,7 +1,15 @@
 <script lang="ts">
-  export let size = '32';
-  export let role = 'img';
-  export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
+  interface CtxType {
+    size?: string;
+    role?: string;
+    variation?: 'black' | 'color' | 'icon' | 'white';
+  }
+
+  import { getContext } from 'svelte';
+  const ctx: CtxType = getContext('iconCtx') ?? {};
+  export let size: string = ctx.size || '32';
+  export let role: string = ctx.role || 'img';
+  export let variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
   let svgpath: string;
   let svgblack =
     '<path d="M24.176 17.184l-8.37 5.182-8.787-4.39v-2.58l9.284-5.806 8.315 4.056v.363l-8.813 5.476-6.749-3.346-.444.896 7.247 3.593 9.759-6.063v-1.544l-9.375-4.573L6.02 14.842v3.752l9.839 4.916 8.872-5.493-.215.862.97.242.621-2.485-2.485-.621-.242.97zM16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16z" fill-rule="evenodd"/>';
@@ -56,8 +64,8 @@
 @component
 [Go to docs](https://svelte-cryptocurrency-icons.vercel.app)
 ## Props
-@prop export let size = '32';
-@prop export let role = 'img';
-@prop export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
+@prop export let size: string = ctx.size || '32';
+@prop export let role: string = ctx.role || 'img';
+@prop export let variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
 @prop export let ariaLabel = 'lbc';
 -->

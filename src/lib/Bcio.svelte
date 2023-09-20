@@ -1,7 +1,15 @@
 <script lang="ts">
-  export let size = '32';
-  export let role = 'img';
-  export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
+  interface CtxType {
+    size?: string;
+    role?: string;
+    variation?: 'black' | 'color' | 'icon' | 'white';
+  }
+
+  import { getContext } from 'svelte';
+  const ctx: CtxType = getContext('iconCtx') ?? {};
+  export let size: string = ctx.size || '32';
+  export let role: string = ctx.role || 'img';
+  export let variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
   let svgpath: string;
   let svgblack =
     '<path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM11.94 7.436a.877.877 0 000 1.751.877.877 0 000-1.751zm4.05-2.43a.877.877 0 000 1.752.877.877 0 000-1.752zm0 9.719a.877.877 0 000 1.751.877.877 0 000-1.751zm4.049-2.43a.876.876 0 10.002 1.753.876.876 0 00-.002-1.753zm4.05-2.43a.877.877 0 10.001 1.754.877.877 0 00-.002-1.753zm-12.15 7.29a.877.877 0 000 1.751.877.877 0 000-1.751zM7.89 9.865a.876.876 0 10.002 1.753.876.876 0 00-.002-1.752zm0 9.72a.876.876 0 10.002 1.752.876.876 0 00-.002-1.753zm0-4.86a.877.877 0 000 1.751.877.877 0 000-1.751zm8.1-4.86a.877.877 0 100 1.754.877.877 0 000-1.753zm4.049-2.43a.877.877 0 10.002 1.754.877.877 0 00-.002-1.753zm0 9.72a.876.876 0 10.001 1.752.876.876 0 00-.001-1.752zm4.05-2.43a.877.877 0 000 1.751.877.877 0 000-1.751zm-4.05 7.289a.876.876 0 10.001 1.753.876.876 0 00-.001-1.753zm4.05-2.43a.877.877 0 000 1.752.877.877 0 000-1.752zm-8.1 4.86a.877.877 0 000 1.751.877.877 0 00.877-.875.877.877 0 00-.876-.876zm0-4.86a.877.877 0 10.002 1.754.877.877 0 00-.001-1.754zm-4.05-7.289a.877.877 0 000 1.751.877.877 0 000-1.75zm0 9.719a.877.877 0 000 1.751.877.877 0 000-1.751z"/>';
@@ -56,8 +64,8 @@
 @component
 [Go to docs](https://svelte-cryptocurrency-icons.vercel.app)
 ## Props
-@prop export let size = '32';
-@prop export let role = 'img';
-@prop export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
+@prop export let size: string = ctx.size || '32';
+@prop export let role: string = ctx.role || 'img';
+@prop export let variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
 @prop export let ariaLabel = 'bcio';
 -->

@@ -1,7 +1,15 @@
 <script lang="ts">
-  export let size = '32';
-  export let role = 'img';
-  export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
+  interface CtxType {
+    size?: string;
+    role?: string;
+    variation?: 'black' | 'color' | 'icon' | 'white';
+  }
+
+  import { getContext } from 'svelte';
+  const ctx: CtxType = getContext('iconCtx') ?? {};
+  export let size: string = ctx.size || '32';
+  export let role: string = ctx.role || 'img';
+  export let variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
   let svgpath: string;
   let svgblack =
     '<path fill-rule="evenodd" d="M4.876 27.5h.223c.84-3.16 2.045-6.633 3.39-10.164 1.233-3.217 2.634-5.893 4.119-8.114.896 0 1.82.057 2.773.114 1.177.086 2.41.228 3.67.399 3.867.54 5.94 1.423 6.949 2.477-.925-3.274-4.259-6.064-10.843-6.036h-.14c2.942-3.246 5.968-4.555 8.21-3.644a.871.871 0 01.28.142c-.57-.757-1.243-1.34-2.018-1.708C27.622 3.206 32 9.092 32 16c0 8.837-7.163 16-16 16a15.947 15.947 0 01-11.124-4.5zm-.028-.027A15.952 15.952 0 010 16c0-1.047.1-2.07.292-3.06 1.617-1.804 4.744-3.064 9.01-3.518-1.009 1.992-1.905 4.27-2.662 6.86-1.146 3.976-1.706 7.81-1.792 11.19zM.385 12.497C1.982 5.345 8.367 0 16 0c1.492 0 2.937.204 4.307.586-2.946-.55-6.385 1.546-9.324 5.932-5.357.86-9.025 3.172-10.598 5.979zm17.378 3.985c-1.793 0-3.25 1.48-3.25 3.36 0 1.85 1.457 3.359 3.25 3.359s3.25-1.509 3.25-3.36c0-1.85-1.457-3.359-3.25-3.359z"/>';
@@ -56,8 +64,8 @@
 @component
 [Go to docs](https://svelte-cryptocurrency-icons.vercel.app)
 ## Props
-@prop export let size = '32';
-@prop export let role = 'img';
-@prop export let variation: 'black' | 'color' | 'icon' | 'white' = 'color';
+@prop export let size: string = ctx.size || '32';
+@prop export let role: string = ctx.role || 'img';
+@prop export let variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
 @prop export let ariaLabel = 'fsn';
 -->
