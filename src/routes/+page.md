@@ -66,13 +66,9 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ## Props
 
-| Name                                  | Default   |
-| ------------------------------------- | --------- |
-| size                                  | 24        |
-| role                                  | img       |
-| class                                 |           |
-| ariaLabel                             | file name |
-| variation (black, color, icon, white) | color     |
+- size: string = ctx.size || '32';
+- role: string = ctx.role || 'img';
+- variation: 'black' | 'color' | 'icon' | 'white' = ctx.variation || 'color';
 
 ## IDE support
 
@@ -80,7 +76,7 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Variation
 
-The default variation value is outline. Use the `variation` prop to change it to solid.
+The default variation value is color. Use the `variation` prop to change it to solid.
 
 ```html
 <Btc variation="black" />
@@ -102,7 +98,47 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 <Btc class="shrink-0 h-20 w-20" />
 ```
 
-## Creating a Default Global Icon Setting in Svelte
+## Setting Global Icon using setContext
+
+You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components. Here's how you can do it:
+
+
+```html
+<script>
+  import { setContext } from 'svelte';
+
+  // Define your global icon settings
+  const iconCtx = {
+    size: '100', // Icon size in pixels
+    variation: 'color', // Icon color in hexadecimal or CSS color name
+    role: 'svg icon image' // Accessible role for the icon
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+```
+
+The `size`, `role`, and `variation` properties are optional, allowing you to fine-tune the appearance and accessibility of your icons as needed.
+
+If you set `size`, icons can be customized with different colors. For example:
+
+```html
+<script>
+  import { setContext } from 'svelte';
+  import { Btc } from 'svelte-cryptocurrency-icons';
+  const iconCtx = {
+    size: '50'
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+
+<Btc variation="black" />
+```
+
+Remember that you can set only one or two of these properties, allowing you to tailor icon settings to your specific design and accessibility requirements.
+
+Feel free to mix and match these properties as needed to create visually appealing and accessible icons in your Svelte application.
+
+## Creating a Default Icon Setting
 
 You can create a config file, `/src/lib/icon.config.json`.
 
