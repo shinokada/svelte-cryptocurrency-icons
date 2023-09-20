@@ -1,6 +1,6 @@
 {
   "name": "svelte-cryptocurrency-icons",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "main": "dist/index.js",
   "description": "Crypto currency SVG icon components for Svelte",
   "author": {
