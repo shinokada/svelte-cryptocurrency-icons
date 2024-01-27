@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.7.4...v1.0.1) (2024-01-27)
+
+
+### Bug Fixes
+
+* add class="ml-3 m-0 lg:hidden md:block" to NavHamburger ([9f0c1ff](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/9f0c1ffcb4d36deedbda16f9b9a2b34159b22fcc))
+* badge size ([b09bbb5](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/b09bbb52e1546d9e681b5df63201cac1e0dd8ef9))
+
 ### [0.7.4](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.7.3...v0.7.4) (2023-09-20)
 
 ### Features
