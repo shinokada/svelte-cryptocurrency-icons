@@ -2023,6 +2023,7 @@
     "./Zrx.svelte": {
       "types": "./dist/Zrx.svelte.d.ts",
       "svelte": "./dist/Zrx.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   }
 }

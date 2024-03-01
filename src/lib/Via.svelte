@@ -62,7 +62,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-cryptocurrency-icons.vercel.app)
+[Go to docs](https://svelte-cryptocurrency-icons.codewithshin.com)
 ## Props
 @prop export let size: string = ctx.size || '32';
 @prop export let role: string = ctx.role || 'img';
