@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.2](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v1.0.1...v1.0.2) (2024-01-27)
 
-
 ### Bug Fixes
 
-* add ^5.0.0 to peerDependencies ([0b137af](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/0b137afc1df85617358c735f528feaf0decf3411))
+- add ^5.0.0 to peerDependencies ([0b137af](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/0b137afc1df85617358c735f528feaf0decf3411))
 
 ### [1.0.1](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v0.7.4...v1.0.1) (2024-01-27)
 

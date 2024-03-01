@@ -338,4 +338,4 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
