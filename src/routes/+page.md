@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-cryptocurrency-icons)
 
-## Original source
-
-[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
-
-## License
-
-[Svelte-Circle-Flags License](https://github.com/shinokada/svelte-cryptocurrency-icons/LICENSE)
-
-[spothq/cryptocurrency-icons License](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md)
-
 ## Installation
 
 ```sh
@@ -339,3 +329,13 @@ Use `import * as Icon from 'svelte-cryptocurrency-icons`.
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
+
+## Original source
+
+[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
+
+## License
+
+[Svelte-Circle-Flags License](https://github.com/shinokada/svelte-cryptocurrency-icons/LICENSE)
+
+[spothq/cryptocurrency-icons License](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md)
