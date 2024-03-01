@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v1.0.3...v1.0.4) (2024-03-01)
+
+
+### Bug Fixes
+
+* @typescript-eslint/eslint-plugin update ([5e4b4ea](https://github.com/shinokada/svelte-cryptocurrency-icons/commit/5e4b4ea3cbf1cefaf0c2706b05bc1403127d2315))
+
 ### [1.0.3](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v1.0.2...v1.0.3) (2024-03-01)
 
 ### [1.0.2](https://github.com/shinokada/svelte-cryptocurrency-icons/compare/v1.0.1...v1.0.2) (2024-01-27)
